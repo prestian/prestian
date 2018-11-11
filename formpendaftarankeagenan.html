@@ -1,0 +1,55 @@
+<html>
+<!DOCTYPE html>
+<head>
+   <title>Form Pendaftaran Agen TOKO STAND HERBAL</title>
+</head>
+ 
+<body bgcolor="#FFD700">
+<h1><center>Form Pendaftaran Agen TOKO STAND HERBAL</center></h1>
+<form>
+<fieldset>
+	<legend><b>A. IDENTITAS CALON AGEN</b></legend>
+	
+	<label>Nama :</label> <input type="text" name="nama"><br/>
+	<label>Alamat :</label> <input type="text" name="alamat"></br/>
+	<label>Password :</label> <input type="password" name="pass"><br/>
+	<label>Jenis Kelamin :</label> 
+		<input type="radio" name="jk" value="laki-laki" checked /> 
+			Laki - Laki
+		<input type="radio" name="jk" value="perempuan" /> 
+			Perempuan
+		<br/>
+	<label>No Telepon :</label>
+		<input type="text" name="no_telepon">
+		<br>
+	
+	<label>Paket Agen yang Diminati :</label>
+		<input type="checkbox" name="gold"> Gold
+		<input type="checkbox" name="silver"> SILVER
+		<input type="checkbox" name="biasa"> BIASA
+		<br/>
+	<label>Kota Asal :</label>
+	<select>
+		<option>yogyakata</option>
+		<option>jakarta</option>
+		<option>bandung</option>
+		<option>surabaya</option>
+	</select>
+	<br/>
+</fieldset>
+<fieldset>
+	<legend><b>B. DAFTAR PAKET KEAGENAN</b></legend>
+	
+	<label>Paket Agen yang Diminati :</label> <br/>
+		<input type="checkbox" name="gold"> Gold (min belanja 3 jt)<br/>
+		<input type="checkbox" name="silver"> SILVER (min belanja 1,5 jt) <br/>
+		<input type="checkbox" name="biasa"> BIASA (min belanja 500 rb) <br/>
+		<br/>
+
+	pesan anda :
+	<textarea> </textarea>
+	<br/>
+	<input type="submit" value="Daftar">
+</form>
+</body>
+</html>
